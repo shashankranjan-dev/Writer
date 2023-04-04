@@ -7,7 +7,7 @@ const Hero8 = () => {
     <div className="max-w-screen-2xl mx-auto ">
       <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-10 py-8 2xl:mx-auto 2xl:container">
         <div className="z-30 relative lg:w-1/2 ">
-          <div className="hidden dark:bg-zinc-800 bg-gray-100 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
+          <div className="hidden bg-zinc-800  w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
             <div className="w-full lg:w-auto lg:-mr-32">
               <img
                 src="/nazu1.jpg"
@@ -16,7 +16,7 @@ const Hero8 = () => {
               />
             </div>
           </div>
-          <div className="absolute top-0 dark:bg-zinc-800 bg-gray-100 md:h-96 w-full hidden md:block lg:hidden"></div>
+          <div className="absolute top-0 bg-zinc-800  md:h-96 w-full hidden md:block lg:hidden"></div>
           <div className="w-full h-full lg:hidden">
             <img
               src="/nazu1.jpg"
@@ -25,9 +25,9 @@ const Hero8 = () => {
             />
           </div>
         </div>
-        <div className="bg-gray-100 dark:bg-zinc-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
+        <div className=" bg-zinc-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
           <div>
-            <h1 className="dark:text-white font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">
+            <h1 className="text-white font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
               Naziya Khan
             </h1>
             <p className="dark:text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">
