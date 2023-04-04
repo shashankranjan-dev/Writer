@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <div className="App dark:bg-stone-900">
+    <div className="App bg-stone-900">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
