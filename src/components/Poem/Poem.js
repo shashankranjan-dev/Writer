@@ -1,0 +1,241 @@
+import React from "react";
+
+function Poem() {
+  return (
+    <div>
+      <link
+        rel="stylesheet"
+        href="https://cdn.tailgrids.com/tailgrids-fallback.css"
+      />
+
+      <section class=" pt-24 pb-28 ">
+        <div class="container">
+          <div class="flex flex-wrap justify-center -mx-4">
+            <div class="w-full px-4">
+              <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                <h2
+                  className="
+                font-bold
+                 font-assistant
+                 tracking-widest
+                text-3xl
+                sm:text-4xl
+                md:text-[40px]
+                text-white
+                mb-4
+                "
+                >
+                  Our Recent Poems
+                </h2>
+                <p class="text-base text-gray-500">
+                  There are many variations of passages of Lorem Ipsum available
+                  but the majority have suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="max-w-[370px] mx-auto mb-10">
+                <div class="rounded overflow-hidden mb-8">
+                  <img
+                    src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-01.jpg"
+                    alt=""
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="
+                   bg-primary
+                   rounded
+                   inline-block
+                   text-center
+                   py-1
+                   px-4
+                   text-xs
+                   leading-loose
+                   font-semibold
+                   text-white
+                   mb-5
+                   "
+                  >
+                    Dec 22, 2023
+                  </span>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                      font-semibold
+                       font-assistant tracking-widest
+                      text-xl
+                      sm:text-2xl
+                      lg:text-xl
+                      xl:text-2xl
+                      mb-4
+                      inline-block
+                      text-white
+                      hover:text-primary
+                      "
+                    >
+                      Meet AutoManage, the best AI management tools
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="max-w-[370px] mx-auto mb-10">
+                <div class="rounded overflow-hidden mb-8">
+                  <img
+                    src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
+                    alt="image"
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="
+                   bg-primary
+                   rounded
+                   inline-block
+                   text-center
+                   py-1
+                   px-4
+                   text-xs
+                   leading-loose
+                   font-semibold
+                   text-white
+                   mb-5
+                   "
+                  >
+                    Mar 15, 2023
+                  </span>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                      font-semibold
+                      font-assistant tracking-widest
+                      text-xl
+                      sm:text-2xl
+                      lg:text-xl
+                      xl:text-2xl
+                      mb-4
+                      inline-block
+                      text-white
+                      hover:text-primary
+                      "
+                    >
+                      How to earn more money as a wellness coach
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="max-w-[370px] mx-auto mb-10">
+                <div class="rounded overflow-hidden mb-8">
+                  <img
+                    src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-03.jpg"
+                    alt=""
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="
+                   bg-primary
+                   rounded
+                   inline-block
+                   text-center
+                   py-1
+                   px-4
+                   text-xs
+                   leading-loose
+                   font-semibold
+                   text-white
+                   mb-5
+                   "
+                  >
+                    Jan 05, 2023
+                  </span>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                      font-semibold
+                      font-assistant tracking-widest
+                      text-xl
+                      sm:text-2xl
+                      lg:text-xl
+                      xl:text-2xl
+                      mb-4
+                      inline-block
+                      text-white
+                      hover:text-primary
+                      "
+                    >
+                      The no-fuss guide to upselling and cross selling
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="max-w-[370px] mx-auto mb-10">
+                <div class="rounded overflow-hidden mb-8">
+                  <img
+                    src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-03.jpg"
+                    alt=""
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="
+                   bg-primary
+                   rounded
+                   inline-block
+                   text-center
+                   py-1
+                   px-4
+                   text-xs
+                   leading-loose
+                   font-semibold
+                   text-white
+                   mb-5
+                   "
+                  >
+                    Jan 05, 2023
+                  </span>
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                      font-semibold
+                      font-assistant tracking-widest
+                      text-xl
+                      sm:text-2xl
+                      lg:text-xl
+                      xl:text-2xl
+                      mb-4
+                      inline-block
+                      text-white
+                      hover:text-primary
+                      "
+                    >
+                      The no-fuss guide to upselling and cross selling
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Poem;
