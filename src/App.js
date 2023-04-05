@@ -13,6 +13,7 @@ import {
   PhotoPage,
   PoemPage,
   MainPage,
+  FindPage,
 } from "./pages/index";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/poem" element={<PoemPage />} />
         <Route path="/main" element={<MainPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/find" element={<FindPage />} />
         <Route path="/write" element={<WritePage />} />
       </Routes>
       <Footer />

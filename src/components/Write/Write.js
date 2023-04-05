@@ -108,12 +108,13 @@ function Editor() {
               </svg>
             </li>
             <li>
-              <a
+              <Link
+                to="/find"
                 class="text-base text-white font-light font-assistant hover:text-blue-500"
                 href="!#"
               >
-                Let's Talk
-              </a>
+                Find Me
+              </Link>
             </li>
           </ul>
         </nav>

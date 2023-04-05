@@ -7,6 +7,7 @@ import ArticlePage from "./Article/ArticlePage";
 import PhotoPage from "./Photo/PhotoPage";
 import PoemPage from "./Poem/PoemPage";
 import MainPage from "./Main/MainPage";
+import FindPage from "./Find/FindPage";
 
 export {
   HomePage,
@@ -17,4 +18,5 @@ export {
   PhotoPage,
   PoemPage,
   MainPage,
+  FindPage,
 };

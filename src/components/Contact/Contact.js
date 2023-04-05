@@ -1,9 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 function Contact() {
+  const [status, setStatus] = useState("Submit");
+  const [mailSent, setMailSent] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    console.log("Sender:" + e.target.elements.email.value);
+    let details = {
+      name: e.target.elements.full_name.value,
+      email: e.target.elements.email.value,
+      message: e.target.elements.message.value,
+      phone: e.target.elements.phone.value,
+    };
+    console.log(details);
+    let response = await fetch("https://writer-backend.onrender.com/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    console.log(result);
+    if (result.status === "Message Sent") {
+      Swal.fire({
+        icon: "success",
+        title: "Message Sent",
+        text: "We will get back to you soon!",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          setMailSent(true);
+        }
+      });
+    } else {
+      alert("Message failed to send.");
+    }
+  };
   return (
     <div>
-      <section class="relative z-10 overflow-hidden dark:bg-stone-900 py-20 lg:py-[135px]">
+      <section class="relative z-10 overflow-hidden dark:bg-stone-900 py-20 lg:py-[100px]">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -81,31 +120,63 @@ function Contact() {
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                <form>
+                <form id="contact" onSubmit={handleSubmit}>
+                  <label
+                    htmlFor="full_name"
+                    className="text-gray-800 text-sm  font-semibold leading-tight tracking-normal "
+                  >
+                    Full Name
+                  </label>
                   <div class="mb-6">
                     <input
                       type="text"
+                      id="full_name"
+                      name="full_name"
                       placeholder="Your Name"
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
+                  <label
+                    htmlFor="email"
+                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                  >
+                    Email
+                  </label>
                   <div class="mb-6">
                     <input
                       type="email"
+                      id="email"
+                      name="email"
                       placeholder="Your Email"
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
+                  <label
+                    htmlFor="phone"
+                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                  >
+                    Phone
+                  </label>
                   <div class="mb-6">
                     <input
                       type="text"
+                      id="phone"
+                      name="phone"
                       placeholder="Your Phone"
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
+                  <label
+                    htmlFor="message "
+                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                  >
+                    Message
+                  </label>
                   <div class="mb-6">
                     <textarea
                       rows="6"
+                      id="message"
+                      name="message"
                       placeholder="Your Message"
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     ></textarea>
@@ -115,7 +186,7 @@ function Contact() {
                       type="submit"
                       class="bg-primary border-primary w-full rounded border p-3 text-black transition hover:bg-opacity-90"
                     >
-                      Send Message
+                      {status}
                     </button>
                   </div>
                 </form>

@@ -2,75 +2,132 @@ import React from "react";
 
 const Feature6 = () => {
   return (
-    <div className="lg:px-20 md:px-6 px-4 md:py-6 py-8">
-      <div className="lg:flex items-center justify-between">
-        <div className="lg:w-1/3">
-          <h1 className="text-4xl font-semibold leading-9 text-white">
-            Indoor Interiors
-          </h1>
-          <p className="text-base leading-6 mt-4 text-white">
-            Get inspired by our curated selection of luxiwood interiors. We hope
-            get inspired to have luxiwood interior yourself. You’ll find tips
-            here where you can buy a lot of cool furniture.
-          </p>
-          <button
-            aria-label="view catalogue"
-            className="focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none mt-6 md:mt-8 text-base font-semibold leading-none text-white flex items-center hover:underline"
+    <div className="">
+      <div className=" py-10 flex flex-col items-center justify-center">
+        <div className="xl:w-1/2 w-11/12">
+          <h1
+            tabIndex={0}
+            className="text-5xl font-bold 2xl:leading-10 leading-0 text-center text-white tracking-widest font-assistant"
           >
-            View Catalogue
-            <svg
-              className="ml-2 mt-1"
-              width="12"
-              height="8"
-              viewBox="0 0 12 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.33325 4H10.6666"
-                stroke="#1F2937"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M8 6.66667L10.6667 4"
-                stroke="#1F2937"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M8 1.33398L10.6667 4.00065"
-                stroke="#1F2937"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+            Touching hundreds of lives
+          </h1>
+          <h2
+            role="contentinfo"
+            tabIndex={0}
+            className="text-base leading-normal text-center text-gray-500 mt-5"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            Lorem Ipsum is simply dummy text of the printing
+          </h2>
         </div>
-        <div className="lg:w-7/12 lg:mt-0 mt-8">
-          <div className="w-full h-full bg-red-200">
-            <img
-              src="https://i.ibb.co/cbyDY74/pexels-max-vakhtbovych-6782351-1-1.png"
-              alt="apartment design"
-              className="w-full sm:block hidden"
-            />
-            <img
-              src="https://i.ibb.co/ZVPGjGJ/pexels-max-vakhtbovych-6782351-1.png"
-              alt="apartment design"
-              className="sm:hidden block w-full"
-            />
+        <div className="2xl:px-20 lg:px-12 px-4 flex flex-wrap items-start mt-4">
+          <div className="mt-24">
+            <div className="flex items-end ">
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/kBgtHK6/Rectangle-5.png"
+                alt="girl with blue background"
+                className="w-20 h-20 rounded-lg mr-6"
+              />
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/9nLBtjx/Rectangle-3.png"
+                alt="guy winking"
+                className="w-48 h-36 rounded-lg"
+              />
+            </div>
+            <div className="flex items-center justify-end my-6">
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/jRbF1KF/Rectangle-4.png"
+                alt="guy smiling"
+              />
+            </div>
+            <div className="flex items-start">
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/Sf4Q94L/Rectangle-6.png"
+                alt="girl with bluw background"
+                className="w-48 h-48 rounded-lg"
+              />
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/fnNqJrx/Rectangle-7.png"
+                alt="guy with glasses"
+                className="w-20 h-20 rounded-lg ml-6 flex-shrink-0 object-cover object-fit"
+              />
+            </div>
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 lg:gap-8 gap-6 lg:mt-8 md:mt-6 mt-4">
+          <div className="ml-6 mt-32">
             <img
-              src="https://i.ibb.co/4Jrp5TB/pexels-max-vakhtbovych-6782370-1.png"
-              className="w-full"
-              alt="kitchen"
+              tabIndex={0}
+              src="https://i.ibb.co/LSxy7fy/Rectangle-9.png"
+              className="w-72 h-80 rounded-lg"
+              alt="guy with sunglasses"
             />
-            <img
-              src="https://i.ibb.co/0Jv3FSy/pexels-max-vakhtbovych-6436799-1-1.png"
-              className="w-full"
-              alt="sitting room"
-            />
+            <div className="flex items-start mt-6">
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/X8PKD3q/Rectangle-8.png"
+                alt="girl  laughing"
+                className="w-48 h-48 rounded-lg"
+              />
+              <img
+                tabIndex={0}
+                src="https://i.ibb.co/2Yj51CY/Rectangle-13.png"
+                alt="guy with glasses"
+                className="w-20 h-20 rounded-lg ml-6 object-cover object-fit"
+              />
+            </div>
+          </div>
+          <div className="mt-14 ml-6">
+            <div className="lg:flex ">
+              <div>
+                <img
+                  tabIndex={0}
+                  src="https://i.ibb.co/bWGVSkP/Rectangle-10.png"
+                  alt="group of friends"
+                  className="w-96 h-72 rounded-lg object-center object-fit"
+                />
+              </div>
+              <div>
+                <div className="flex ml-6">
+                  <img
+                    tabIndex={0}
+                    src="https://i.ibb.co/80jvpSv/Rectangle-16.png"
+                    className="w-20 h-20 rounded-lg mt-14"
+                    alt="man"
+                  />
+                  <img
+                    tabIndex={0}
+                    src="https://i.ibb.co/6PR2Y74/Rectangle-15.png"
+                    className="w-20 h-24 rounded-lg ml-6"
+                    alt="woman"
+                  />
+                </div>
+                <img
+                  tabIndex={0}
+                  src="https://i.ibb.co/M5rvjhk/Rectangle-14.png"
+                  alt="boy with blonde hair"
+                  className="ml-6 mt-6 w-48 h-32 rounded-lg"
+                />
+              </div>
+            </div>
+            <div className="mt-6 flex">
+              <img
+                tabIndex={0}
+                className="w-48 h-48 rounded-lg"
+                src="https://i.ibb.co/GPpMsbr/Rectangle-12.png"
+                alt="young girl with red hair"
+              />
+              <img
+                tabIndex={0}
+                className="w-72 h-56 rounded-lg ml-6"
+                src="https://i.ibb.co/VBcgkVL/Rectangle-11.png"
+                alt="young girl with red hair"
+              />
+            </div>
           </div>
         </div>
       </div>
