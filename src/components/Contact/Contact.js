@@ -206,7 +206,7 @@ function Contact() {
                       />
                     </svg> */}
                   </span>
-                  <span class="absolute -right-10 top-[90px] z-[-1]">
+                  <span class="absolute -right-10 -top-0 z-[-1]">
                     <svg
                       width="34"
                       height="134"

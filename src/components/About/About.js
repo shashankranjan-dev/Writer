@@ -13,7 +13,7 @@ function About() {
         <div class="  mx-4 p-4 text-center md:p-4 ">
           <button
             onClick={handleClick}
-            class="text-2xl text-white font-bold font-assistant uppercase tracking-widest"
+            class="text-2xl text-white font-bold  p-4 font-assistant uppercase tracking-widest"
           >
             About
           </button>
