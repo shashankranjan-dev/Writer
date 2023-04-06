@@ -10,12 +10,12 @@ function About() {
   return (
     <div>
       <header class="bg-header flex items-center justify-center h-screen pb-20">
-        <div class="border-2 bg-white mx-4 p-4 text-center md:p-4 bg-opacity-25">
+        <div class="  mx-4 p-4 text-center md:p-4 ">
           <button
             onClick={handleClick}
-            class="text-5xl text-white font-bold font-assistant tracking-wider"
+            class="text-2xl text-white font-bold font-assistant uppercase tracking-widest"
           >
-            About Me
+            About
           </button>
         </div>
       </header>
