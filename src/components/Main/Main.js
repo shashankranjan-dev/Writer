@@ -40,8 +40,9 @@ const Feature6 = () => {
             <div className="flex items-center justify-end my-6">
               <img
                 tabIndex={0}
-                src="https://i.ibb.co/jRbF1KF/Rectangle-4.png"
+                src="https://i.pinimg.com/564x/87/d3/0e/87d30ee31cc46ca1b23ddcf35b4f989a.jpg"
                 alt="guy smiling"
+                className="w-72 h-80 rounded-lg"
               />
             </div>
             <div className="flex items-start">
@@ -62,16 +63,16 @@ const Feature6 = () => {
           <div className="ml-6 mt-32">
             <img
               tabIndex={0}
-              src="https://i.ibb.co/LSxy7fy/Rectangle-9.png"
+              src="https://i.pinimg.com/564x/f5/3c/8c/f53c8c8901989edbc79078d314172472.jpg"
               className="w-72 h-80 rounded-lg"
               alt="guy with sunglasses"
             />
             <div className="flex items-start mt-6">
               <img
                 tabIndex={0}
-                src="https://i.ibb.co/X8PKD3q/Rectangle-8.png"
+                src="https://i.pinimg.com/564x/b1/8f/a7/b18fa735b830d20aa22e3dc41a194327.jpg"
                 alt="girl  laughing"
-                className="w-48 h-48 rounded-lg"
+                className="w-48 h-64 rounded-lg"
               />
               <img
                 tabIndex={0}
@@ -86,9 +87,9 @@ const Feature6 = () => {
               <div>
                 <img
                   tabIndex={0}
-                  src="https://i.ibb.co/bWGVSkP/Rectangle-10.png"
+                  src="https://i.pinimg.com/564x/29/5f/19/295f19fed9d347954c653eda0bcb99d9.jpg"
                   alt="group of friends"
-                  className="w-96 h-72 rounded-lg object-center object-fit"
+                  className="w-96 h-96 rounded-lg object-center object-fit"
                 />
               </div>
               <div>
