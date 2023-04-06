@@ -119,11 +119,11 @@ function Contact() {
               </div>
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+              <div class="relative rounded-lg bg-zinc-800 p-8 shadow-lg sm:p-12">
                 <form id="contact" onSubmit={handleSubmit}>
                   <label
                     htmlFor="full_name"
-                    className="text-gray-800 text-sm  font-semibold leading-tight tracking-normal "
+                    className="text-white text-sm  font-semibold leading-tight tracking-normal "
                   >
                     Full Name
                   </label>
@@ -138,7 +138,7 @@ function Contact() {
                   </div>
                   <label
                     htmlFor="email"
-                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                    className="text-white text-sm font-semibold leading-tight tracking-normal mb-2"
                   >
                     Email
                   </label>
@@ -153,7 +153,7 @@ function Contact() {
                   </div>
                   <label
                     htmlFor="phone"
-                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                    className="text-white text-sm font-semibold leading-tight tracking-normal mb-2"
                   >
                     Phone
                   </label>
@@ -168,7 +168,7 @@ function Contact() {
                   </div>
                   <label
                     htmlFor="message "
-                    className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
+                    className="text-white text-sm font-semibold leading-tight tracking-normal mb-2"
                   >
                     Message
                   </label>
@@ -184,7 +184,7 @@ function Contact() {
                   <div>
                     <button
                       type="submit"
-                      class="bg-primary border-primary w-full rounded border p-3 text-black transition hover:bg-opacity-90"
+                      class="bg-primary border-primary w-full rounded border p-3 text-white transition hover:bg-opacity-90"
                     >
                       {status}
                     </button>
@@ -192,7 +192,7 @@ function Contact() {
                 </form>
                 <div>
                   <span class="absolute -top-10 -right-9 z-[-1]">
-                    <svg
+                    {/* <svg
                       width="100"
                       height="100"
                       viewBox="0 0 100 100"
@@ -205,7 +205,7 @@ function Contact() {
                         d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
                         fill="#3056D3"
                       />
-                    </svg>
+                    </svg> */}
                   </span>
                   <span class="absolute -right-10 top-[90px] z-[-1]">
                     <svg
