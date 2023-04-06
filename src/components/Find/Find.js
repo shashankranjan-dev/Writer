@@ -3,26 +3,31 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      <section class="text-gray-600 body-font relative">
-        <div class="absolute inset-0 bg-gray-300">
-          <iframe
-            width="100%"
-            height="100%"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            title="map"
-            scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14004.94041590989!2d77.14794963916768!3d28.652678336376148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02ec77443acb%3A0xc3e201a78b8d9851!2sPatel%20Nagar%2C%20New%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1680688360091!5m2!1sen!2sus"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+      <div className="xl:px-20 px-6 py-2 xl:mx-auto xl:container">
+        <div className="md:mt-0 mt-4 relative sm:flex items-center justify-center">
+          <img
+            src="/hi-removebg.png"
+            alt=""
+            className="w-full xl:h-full h-96  object-fill sm:block hidden"
+          />
+          <img
+            src="/hi-removebg.png"
+            alt=""
+            className="sm:hidden -mt-10 block w-full h-96 object-cover object-fill absolute z-0"
+          />
+
+          <div className="shadow-lg xl:p-6 p-4 sm:w-auto w-full bg-white bg-opacity-0 sm:absolute relative z-20 md:-mt-5 sm:-mt-5 mt-4 right-0 xl:mr-80 sm:mr-24">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png"
+              alt=""
+              className="h-8 w-8 animate-bounce"
+            />
+            <p className="text-2xl font-bold leading-4 xl:mt-4 mt-2 bg-white bg-opacity-0  text-white animate-pulse">
+              New Delhi
+            </p>
+          </div>
         </div>
-        <div class="container px-5 py-96 mx-auto flex">
-          <div class="lg:w-1/3 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"></div>
-        </div>
-      </section>
+      </div>
     </>
   );
 }

@@ -1,10 +1,26 @@
-import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { useRef } from "react";
+import "../../App.css";
 
 function About() {
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div>
-      <div class="py-6 bg-stone-900">
+      <header class="bg-header flex items-center justify-center h-screen pb-20">
+        <div class="border-2 bg-white mx-4 p-4 text-center md:p-4 bg-opacity-25">
+          <button
+            onClick={handleClick}
+            class="text-5xl text-white font-bold font-assistant tracking-wider"
+          >
+            About Me
+          </button>
+        </div>
+      </header>
+
+      <div ref={ref} class="py-6 bg-stone-900">
         <div class="container m-auto px-6 text-white md:px-12 xl:px-6">
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div class="md:5/12 lg:w-5/12">

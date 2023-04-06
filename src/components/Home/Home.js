@@ -10,7 +10,7 @@ const Hero8 = () => {
           <div className="hidden bg-zinc-800  w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
             <div className="w-full lg:w-auto lg:-mr-32">
               <img
-                src="/nazu1.jpg"
+                src="/naz.jpg"
                 alt=""
                 className="w-full relative h-[50rem]  z-30 lg:pl-20 px-6 py-14"
               />
@@ -30,7 +30,7 @@ const Hero8 = () => {
             <h1 className="text-white font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
               Naziya Khan
             </h1>
-            <p className="dark:text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">
+            <p className="text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal  mt-5">
               Get inspired by our curated selection of luxiwood interiors. We
               hope get inspired to have luxiwood interior yourself. You’ll find
               tips here where you can buy a lot of cool furniture,decorations,

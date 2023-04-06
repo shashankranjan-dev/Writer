@@ -12,6 +12,7 @@ function IndexPage() {
               <img
                 src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog1.png"
                 className="w-full"
+                alt=""
               />
               <div className="mt-8 lg:mb-0 mb-8">
                 <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7">
@@ -21,7 +22,10 @@ function IndexPage() {
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. It has survived not only five centuries.
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  typesetting industry.Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. It has survived not only
+                  five centuries. Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry.
                 </p>
                 <div className="mt-6">
                   <a href>
@@ -37,6 +41,7 @@ function IndexPage() {
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog2.png"
                   className="w-full"
+                  alt=""
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
@@ -61,6 +66,7 @@ function IndexPage() {
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog3.png"
                   className="w-full"
+                  alt=""
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
@@ -85,6 +91,7 @@ function IndexPage() {
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog4.png"
                   className="w-full"
+                  alt=""
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
