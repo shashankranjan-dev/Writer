@@ -113,7 +113,7 @@ function Editor() {
                 class="text-base text-white font-light font-assistant hover:text-blue-500"
                 href="!#"
               >
-                Find Me
+                I and EYE
               </Link>
             </li>
           </ul>

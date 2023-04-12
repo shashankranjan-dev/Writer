@@ -19,7 +19,7 @@ const Hero8 = () => {
           <div className="absolute top-0 bg-zinc-800  md:h-96 w-full hidden md:block lg:hidden"></div>
           <div className="w-full h-full lg:hidden">
             <img
-              src="/nazu1.jpg"
+              src="/naz.jpg"
               alt=""
               className="w-full relative z-30 lg:pl-20 md:px-6 py-5 md:py-14"
             />

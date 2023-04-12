@@ -15,6 +15,8 @@ import {
   MainPage,
   FindPage,
 } from "./pages/index";
+import ReadArticle from "./pages/Article/ReadArticle";
+import ReadPoem from "./pages/Poem/ReadPoem";
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/articles" element={<ArticlePage />} />
+        <Route path="/articles/:slug" element={<ReadArticle />} />
         <Route path="/photo" element={<PhotoPage />} />
         <Route path="/poem" element={<PoemPage />} />
+        <Route path="/poems/:slug" element={<ReadPoem />} />
         <Route path="/main" element={<MainPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/find" element={<FindPage />} />
