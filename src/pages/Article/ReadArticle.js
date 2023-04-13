@@ -99,15 +99,15 @@ function ReadArticle() {
                 <div class="flex py-2">
                   <img
                     src="/nazu1.jpg"
-                    class="h-10 w-10 rounded-full mr-2 object-cover"
+                    class="h-12 w-12 rounded-full mr-2 object-cover"
                     alt=""
                   />
                   <div>
-                    <p class="font-semibold text-white text-sm">
+                    <p class="font-semibold text-white text-base">
                       {" "}
                       Naziya Khan{" "}
                     </p>
-                    <p class="font-semibold text-white text-xs"> Writer </p>
+                    <p class="font-semibold text-white text-sm"> Writer </p>
                   </div>
                 </div>
                 <p class="text-white text-justify py-3">

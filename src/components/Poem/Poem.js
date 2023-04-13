@@ -15,19 +15,6 @@ const Hero2 = () => {
   SwiperCore.use([Autoplay]);
   const [poems] = usePrismicDocumentsByType("poem");
 
-  // const [poems, setPoems] = useState([]);
-
-  // useEffect(() => {
-  //   axios
-  //     .get("http://localhost:5000/api/poems/poem")
-  //     .then((res) => {
-  //       setPoems(res.data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
-
   return (
     <div className="dark:bg-gray-900">
       <div className="container mx-auto py-9 md:py-12 lg:py-6">
@@ -86,27 +73,27 @@ const Hero2 = () => {
           {poems?.results?.map((poem, index) => (
             <SwiperSlide>
               <div className="flex flex-col lg:flex-row justify-center items-strech mx-4">
-                <div className="lg:w-4/12 flex justify-center items-center">
+                <div className="lg:w-7/12 flex justify-between items-center">
                   <div>
-                    <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-assistant tracking-wide font-bold  w-7/12">
+                    <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-assistant tracking-wide font-bold  ">
                       <PrismicRichText field={poem.data.heading} />
                     </h1>
                     <p className="dark:text-gray-300 md:w-7/12 font-assistant  line-clamp-3 tracking-widest lg:w-11/12 xl:w-10/12 mt-4 text-justify lg:mt-5 text-base leading-normal text-gray-600">
                       <PrismicRichText field={poem.data.description} />
                     </p>
                     <Link to={`/poems/${poem.uid}`}>
-                      <button className="mt-4 border-2 p-3  hover:bg-pink-200 hover:text-black bg-blue-500 hover bg-opacity-25 text-white">
+                      <button className="mt-4 border-2 p-3 px-6  hover:bg-pink-200 hover:text-black bg-blue-500 hover bg-opacity-25 text-white">
                         Read More
                       </button>
                     </Link>
                   </div>
                 </div>
-                <div className="lg:w-8/12 mt-6 md:mt-8 lg:mt-0">
+                <div className="lg:w-9/12 mt-6 md:mt-8 lg:mt-0">
                   <div className="relative w-full h-full">
                     <img
                       src={poem?.data.banner.url}
                       alt="A lounge sofa"
-                      className="w-full h-full relative hidden lg:block"
+                      className="w-[100%] h-[800px] object-cover shadow-lg shadow-black relative hidden lg:block"
                     />
                     <img
                       src={poem?.data.banner.url}
