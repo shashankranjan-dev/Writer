@@ -88,7 +88,7 @@ function ReadArticle() {
           </div>
 
           <div class="flex flex-col lg:flex-row lg:space-x-12">
-            <div class="px-4 lg:px-0 mt-6 text-white text-justify text-lg leading-relaxed w-full lg:w-3/4">
+            <div class="px-4 lg:px-0 mt-6 text-white text-justify text-base leading-relaxed w-full lg:w-3/4">
               <p class="pb-6 text-justify font-assistant tracking-wide">
                 <PrismicRichText field={article.data.description} />
               </p>

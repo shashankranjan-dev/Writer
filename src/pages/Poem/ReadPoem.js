@@ -54,6 +54,20 @@ function ReadArticle() {
               <h2 class="text-4xl text-white font-bold hover:text-indigo-600 font-assistant tracking-widest transition duration-500 ease-in-out md:text-4xl">
                 <PrismicRichText field={poem.data.heading} />
               </h2>
+              <div class="flex mt-2">
+                <img
+                  src="/nazu1.jpg"
+                  class="h-10 w-10 rounded-full mr-2 object-cover"
+                  alt=""
+                />
+                <div>
+                  <p class="font-semibold text-indigo-700 text-base">
+                    {" "}
+                    Naziya Khan{" "}
+                  </p>
+                  <p class="font-semibold text-indigo-700 text-xs"> Writer </p>
+                </div>
+              </div>
               <br />
               <hr className="w-36 " />
               <p class="mt-6 text-white font-assistant tracking-widest leading-7 text-justify">
