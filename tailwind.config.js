@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         assistant: ["'Assistant'", "sans-serif"],
       },
+      variants: {
+        display: ["group-hover"],
+      },
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],

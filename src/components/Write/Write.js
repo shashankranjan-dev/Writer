@@ -110,10 +110,29 @@ function Editor() {
             <li>
               <Link
                 to="/find"
-                class="text-base text-white font-light font-assistant hover:text-blue-500"
+                class=" text-base text-white font-light font-assistant hover:text-blue-500"
                 href="!#"
               >
                 I and EYE
+                {/* <div class="group-hover:block dropdown-menu absolute hidden h-auto">
+                  <ul class="top-0 w-48 bg-gray-700 shadow px-6 py-8">
+                    <li class="py-1">
+                      <a class="block text-purple-500 font-bold text-base uppercase hover:text-purple-700 cursor-pointer">
+                        Item
+                      </a>
+                    </li>
+                    <li class="py-1">
+                      <a class="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">
+                        Item 2
+                      </a>
+                    </li>
+                    <li class="py-1">
+                      <a class="block text-white font-bold text-base uppercase hover:text-purple-700 cursor-pointer">
+                        Item 3
+                      </a>
+                    </li>
+                  </ul>
+                </div> */}
               </Link>
             </li>
           </ul>

@@ -132,11 +132,11 @@ function ReadArticle() {
         aria-label="Related articles "
         className="py-8 lg:py-24 mt-16  bg-stone-800"
       >
-        <div className="px-0 justify-center mx-auto max-w-screen-lg">
+        <div className="px-20 sm:px-0 justify-center mx-auto max-w-screen-lg">
           <h2 className="mb-8 text-2xl font-bold  text-white">
             Related articles
           </h2>
-          <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-12  sm:grid-cols-2 lg:grid-cols-4">
             {article.data?.body1[0]?.items.map((item) => (
               <RelatedArticle uid={item?.link.uid} />
             ))}

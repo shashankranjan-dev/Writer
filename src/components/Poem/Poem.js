@@ -17,7 +17,7 @@ const Hero2 = () => {
 
   return (
     <div className="dark:bg-gray-900">
-      <div className="container mx-auto py-9 md:py-12 lg:py-6">
+      <div className="container mx-auto py-9 md:py-12 lg:py-4">
         <div className=" flex flex-wrap sm:justify-end mr-2 justify-center gap-4 z-50">
           <button className="btn btn-primary rounded-full hover:bg-blue-600 text-white text-xs font-semibold py-2 px-2 testimonial-swiper-button-prev">
             <svg
@@ -72,7 +72,7 @@ const Hero2 = () => {
         >
           {poems?.results?.map((poem, index) => (
             <SwiperSlide>
-              <div className="flex flex-col lg:flex-row justify-center items-strech mx-4">
+              <div className="flex flex-col lg:flex-row justify-center items-center mx-4">
                 <div className="lg:w-7/12 flex justify-between items-center">
                   <div>
                     <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-assistant tracking-wide font-bold  ">
@@ -88,17 +88,17 @@ const Hero2 = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="lg:w-9/12 mt-6 md:mt-8 lg:mt-0">
-                  <div className="relative w-full h-full">
+                <div className="lg:w-9/12 mt-6 md:mt-8 lg:-mt-24">
+                  <div className="relative w-full sm:h-screen">
                     <img
                       src={poem?.data.banner.url}
                       alt="A lounge sofa"
-                      className="w-[100%] h-[800px] object-cover shadow-lg shadow-black relative hidden lg:block"
+                      className="w-[100%] h-[780px] object-cover shadow-lg shadow-black relative hidden lg:block"
                     />
                     <img
                       src={poem?.data.banner.url}
                       alt="A lounge sofa"
-                      className="w-full h-full lg:hidden"
+                      className="w-full h-[700px] object-cover lg:hidden"
                     />
                   </div>
                 </div>
