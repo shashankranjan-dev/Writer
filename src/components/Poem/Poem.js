@@ -16,7 +16,7 @@ const Hero2 = () => {
   const [poems] = usePrismicDocumentsByType("poem");
 
   return (
-    <div className="dark:bg-gray-900">
+    <div className="dark:bg-stone-900">
       <div className="container mx-auto py-9 md:py-12 lg:py-4">
         <div className=" flex flex-wrap sm:justify-end mr-2 justify-center gap-4 z-50">
           <button className="btn btn-primary rounded-full hover:bg-blue-600 text-white text-xs font-semibold py-2 px-2 testimonial-swiper-button-prev">
