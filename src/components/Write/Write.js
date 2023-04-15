@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Editor() {
   return (
     <div>
-      <body class="dark:bg-zinc-600">
+      <body class="bg-neutral-700">
         <nav class="relative px-4 py-8 flex justify-between items-center ">
           <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2  lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
             <li>

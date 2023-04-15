@@ -1005,7 +1005,7 @@ function Contact() {
       {/* <div className="xl:px-20 px-6 xl:mx-auto xl:container">
         <div className=" relative sm:flex items-center justify-center">
           <img
-            src="/hi-removebg.png"
+            src="https://i.ibb.co/KjrPCyW/map.png"
             alt=""
             className="w-full xl:h-full h-96  object-fill sm:block hidden"
           />
