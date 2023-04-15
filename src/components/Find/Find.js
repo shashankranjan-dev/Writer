@@ -28,40 +28,85 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-
-      <div className="2xl:mx-auto h-screen 2xl:container mx-4 py-16">
-        <div className=" w-full  relative flex items-center justify-center">
-          <img
-            src="https://i.ibb.co/4sYZ8gC/img-2.png"
-            alt="dining"
-            className="w-full h-full absolute z-0 hidden xl:block"
-          />
-          <img
-            src="https://i.ibb.co/bbS3J9C/pexels-max-vakhtbovych-6301182-1.png"
-            alt="dining"
-            className="w-full h-full absolute z-0 hidden sm:block xl:hidden"
-          />
-          <img
-            src="https://i.ibb.co/JKkzGDs/pexels-max-vakhtbovych-6301182-1.png"
-            alt="dining"
-            className="w-full h-full absolute z-0  sm:hidden "
-          />
-          <div className="bg-gray-800 bg-opacity-80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
-            <h1 className="text-4xl font-semibold leading-9 text-white text-center">
-              Don’t miss out!
-            </h1>
-            <p className="text-base leading-normal text-center text-white mt-6">
-              Subscribe to your newsletter to stay in the loop. Our newsletter
-              is sent once in <br />a week on every friday so subscribe to get
-              latest news and updates.
+      <section class="px-4 py-24 mx-auto max-w-7xl">
+        <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div>
+            <h2 class="mb-4 text-2xl font-extrabold font-assistant tracking-widest text-center text-blue-400 md:leading-tight sm:text-left md:text-4xl">
+              Clear overview for efficient tracking
+            </h2>
+            <p class="mb-5 text-base  text-neutral-400  text-justify sm:text-left md:text-lg">
+              Handle your subscriptions and transactions efficiently with the
+              clear overview in Dashboard. Features like the smart search option
+              allow you to quickly find any data you’re looking for.
             </p>
+            <a href="!#" class="w-full btn text-white   btn-sm sm:w-auto">
+              Learn More
+            </a>
+          </div>
 
-            <button className="mt-6 focus:outline-none focus:ring-offset-2 text-white focus:ring  border-white bg-transparent border-2 w-full sm:w-auto bg-white py-4 px-16 hover:bg-opacity-75">
-              Click on Me 😌
-            </button>
+          <div className="relative w-full  duration-300 hover:shadow-sm hover:shadow-blue-400 ">
+            <video
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96 "
+              controls
+            >
+              <source src="/VID_20230331_173630.mp4" type="video/mp4" />
+            </video>
+
+            {/* <button
+              aria-label="Play Video"
+              className="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-gray-900 bg-opacity-50 group hover:bg-opacity-25"
+            >
+              <div className="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
+                <svg
+                  className="w-10 text-gray-900"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
+                </svg>
+              </div>
+            </button> */}
           </div>
         </div>
-      </div>
+        <div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div class="order-none md:order-2">
+            <h2 class="mb-4 text-2xl font-extrabold font-assistant tracking-widest text-center text-blue-400 md:leading-tight sm:text-left md:text-4xl">
+              Decide how you integrate Payments
+            </h2>
+            <p class="mb-5 text-base text-justify text-neutral-400  sm:text-left md:text-lg">
+              Love to code? Next to our ready-made and free plugins you can use
+              our expansive yet simple API; decide how you integrate Payments
+              and build advanced and reliable products yourself from scratch.
+            </p>
+            <a href="!#" class="w-full btn text-white btn-lg sm:w-auto">
+              Learn More
+            </a>
+          </div>
+          <div className="relative w-full transition-shadow duration-300 hover:shadow-sm hover:shadow-blue-400">
+            <video
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
+              controls
+            >
+              <source src="/VID_20230331_173630.mp4" type="video/mp4" />
+            </video>
+            {/* <a
+              href="/"
+              aria-label="Play Video"
+              className="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-gray-900 bg-opacity-50 group hover:bg-opacity-25"
+            >
+              <div className="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
+                <svg
+                  className="w-10 text-gray-900"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
+                </svg>
+              </div>
+            </a> */}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -14,14 +14,14 @@ const Blog4 = () => {
       <p className=" text-base text-center leading-normal mt-4 sm:pr-10 font-assistant tracking-widest text-gray-300">
         If you're looking for random paragraphs, you've come to the right place.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-16 ">
         {articles?.results?.map((article, index) => (
           <>
-            <div>
+            <div className="">
               <div className="relative">
                 <img
                   src={article?.data.banner.url}
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[400px] object-cover "
                   alt={article?.data.banner.alt}
                 />
                 <div className="bg-white absolute top-0 left-0">

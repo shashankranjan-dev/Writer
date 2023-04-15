@@ -14,9 +14,11 @@ import {
   PoemPage,
   MainPage,
   FindPage,
+  BrowsePage,
 } from "./pages/index";
 import ReadArticle from "./pages/Article/ReadArticle";
 import ReadPoem from "./pages/Poem/ReadPoem";
+import BrowseArticle from "./pages/Browse/BrowseArticle";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/find" element={<FindPage />} />
         <Route path="/write" element={<WritePage />} />
+        <Route path="/browse" element={<BrowsePage />} />
+        <Route path="/browse/:slug" element={<BrowseArticle />} />
       </Routes>
       <Footer />
     </div>

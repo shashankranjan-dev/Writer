@@ -8,6 +8,7 @@ import PhotoPage from "./Photo/PhotoPage";
 import PoemPage from "./Poem/PoemPage";
 import MainPage from "./Main/MainPage";
 import FindPage from "./Find/FindPage";
+import BrowsePage from "./Browse/BrowsePage";
 
 export {
   HomePage,
@@ -19,4 +20,5 @@ export {
   PoemPage,
   MainPage,
   FindPage,
+  BrowsePage,
 };

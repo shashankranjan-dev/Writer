@@ -78,11 +78,11 @@ const Hero2 = () => {
                     <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-assistant tracking-wide font-bold  ">
                       <PrismicRichText field={poem.data.heading} />
                     </h1>
-                    <p className="dark:text-gray-300 md:w-7/12 font-assistant  line-clamp-3 tracking-widest lg:w-11/12 xl:w-10/12 mt-4 text-justify lg:mt-5 text-base leading-normal text-gray-600">
+                    <p className="dark:text-gray-300 md:w-7/12 font-assistant  line-clamp-5 tracking-widest lg:w-11/12 xl:w-10/12 mt-4 text-justify lg:mt-5 text-base leading-normal text-gray-600">
                       <PrismicRichText field={poem.data.description} />
                     </p>
                     <Link to={`/poems/${poem.uid}`}>
-                      <button className="mt-4 border-2 p-3 px-6  hover:bg-pink-200 hover:text-black bg-blue-500 hover bg-opacity-25 text-white">
+                      <button className="mt-4 border-2 p-3 px-6 shadow-md shadow-black hover:bg-pink-200 hover:text-black bg-blue-500 hover bg-opacity-25 text-white">
                         Read More
                       </button>
                     </Link>
@@ -93,7 +93,7 @@ const Hero2 = () => {
                     <img
                       src={poem?.data.banner.url}
                       alt="A lounge sofa"
-                      className="w-[100%] h-[780px] object-cover shadow-lg shadow-black relative hidden lg:block"
+                      className="w-[100%] h-[780px] object-cover shadow-md shadow-black  relative hidden lg:block"
                     />
                     <img
                       src={poem?.data.banner.url}

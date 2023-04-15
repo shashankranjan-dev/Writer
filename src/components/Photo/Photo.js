@@ -1,9 +1,12 @@
 import React from "react";
+import { usePrismicDocumentsByType, PrismicRichText } from "@prismicio/react";
+import { Link } from "react-router-dom";
 function IndexPage() {
+  const [photos] = usePrismicDocumentsByType("photo");
   return (
     <>
       <div className="container mx-auto px-4">
-        <h1 className="text-5xl text-center font-assistant tracking-widest  text-white font-bold pt-10">
+        <h1 className="text-5xl text-center font-assistant tracking-widest text-white font-bold pt-10">
           Photo Essay
         </h1>
         <div className="pt-14 xl:px-0 px-4">
@@ -18,7 +21,7 @@ function IndexPage() {
                 <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7">
                   Beautiful Italy, Travel Blog
                 </h1>
-                <p className="text-base f-m-m  tracking-normal text-justify text-white leading-8 mt-2">
+                <p className="text-base f-m-m  tracking-normal text-justify text-white leading-7 mt-2">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. It has survived not only five centuries.
                   Lorem Ipsum is simply dummy text of the printing and
@@ -36,6 +39,7 @@ function IndexPage() {
                 </div>
               </div>
             </div>
+
             <div className="lg:w-1/2 lg:ml-8">
               <div className="lg:flex items-start mb-8">
                 <img
@@ -47,7 +51,7 @@ function IndexPage() {
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
                     A Broken Backpack
                   </h1>
-                  <p className="text-base f-m-m text-white text-justify leading-7 mt-2">
+                  <p className="text-base f-m-m text-white text-justify leading-6 mt-2">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. It has survived not only five
                     centuries. Lorem Ipsum is simply dummy text of the printing
@@ -72,7 +76,7 @@ function IndexPage() {
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
                     My life’s a Movie
                   </h1>
-                  <p className="text-base f-m-m text-white text-justify leading-7 mt-2">
+                  <p className="text-base f-m-m text-white text-justify leading-6 mt-2">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. It has survived not only five
                     centuries. Lorem Ipsum is simply dummy text of the printing
@@ -97,7 +101,7 @@ function IndexPage() {
                   <h1 className="f-m-m text-2xl font-semibold font-assistant tracking-widest  text-white leading-7 lg:mt-0 mt-8">
                     Lilii’s Travel Plans
                   </h1>
-                  <p className="text-base f-m-m text-white text-justify leading-7 mt-2">
+                  <p className="text-base f-m-m text-white text-justify leading-6 mt-2">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. It has survived not only five
                     centuries. Lorem Ipsum is simply dummy text of the printing
@@ -116,9 +120,11 @@ function IndexPage() {
           </div>
         </div>
         <div className="flex items-center justify-center my-16 w-full">
-          <button className=" hover:bg-indigo-500 border border-white tracking-widest font-assistant border-1 lg:text-2xl md:text-lg text-sm rounded f-m-m font-semibold text-white focus:outline-none lg:px-12 px-6 lg:py-6 py-3 xl:leading-4">
-            Browse More
-          </button>
+          <Link to="/browse">
+            <button className=" hover:bg-indigo-500 border shadow-md shadow-black border-white tracking-widest font-assistant border-1 lg:text-2xl md:text-lg text-sm rounded f-m-m font-semibold text-white focus:outline-none lg:px-12 px-6 lg:py-6 py-3 xl:leading-4">
+              Browse More
+            </button>
+          </Link>
         </div>
         <div />
       </div>

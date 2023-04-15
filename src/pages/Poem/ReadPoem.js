@@ -42,7 +42,7 @@ function ReadArticle() {
       <div className="py-20">
         <div class="container m-auto px-6   md:px-auto xl:px-20">
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:ml-40 lg:items-center lg:gap-12">
-            <div class="md:5/12 lg:w-5/12">
+            <div class="md:w-5/12 lg:w-[30rem]">
               <img
                 src={poem?.data.banner.url}
                 alt=""
@@ -77,19 +77,20 @@ function ReadArticle() {
           </div>
         </div>
       </div>
+
       <aside
         aria-label="Related articles "
-        className="py-8 lg:py-24 mt-16  bg-stone-800"
+        className="py-8 lg:py-16 mt-2  bg-stone-800"
       >
-        <div className="px-0 justify-center mx-auto max-w-screen-lg">
+        <div className="px-10 sm:px-0  justify-center mx-auto max-w-screen-lg">
           <h2 className="mb-8 text-2xl font-bold  text-white">
             Related articles
           </h2>
-          {/* <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-12 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {poem.data?.body1[0]?.items.map((item) => (
               <RelatedPoem uid={item?.link.uid} />
             ))}
-          </div> */}
+          </div>
         </div>
       </aside>
     </div>
