@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 
 const Feature6 = () => {
   return (
-    <div className="py-6 sm:py-8 lg:py-96">
+    <div
+      className="py-6 sm:py-8 lg:py-96"
+      // style={{
+      //   background:
+      //     "url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg)",
+      // }}
+    >
       <div class="mx-auto max-w-screen-xl  px-4 md:px-8">
         <div class="mb-6 flex items-end justify-between gap-4">
           <Link

@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <>
       <div className="2xl:mx-auto 2xl:container 2xl:px-20 xl:px-12 sm:px-6 px-4 py-16">
-        <p className=" text-lg text-justify leading-normal mt-4 sm:pr-10 font-assistant tracking-widest text-gray-300">
+        <p className=" text-lg text-justify leading-8 mt-4 sm:pr-10 font-assistant tracking-widest text-gray-300">
           If you're looking for random paragraphs, you've come to the right
           place.If you're looking for random paragraphs, you've come to the
           right place.If you're looking for random paragraphs, you've come to
