@@ -9,6 +9,7 @@ import PoemPage from "./Poem/PoemPage";
 import MainPage from "./Main/MainPage";
 import FindPage from "./Find/FindPage";
 import BrowsePage from "./Browse/BrowsePage";
+import WritingPage from "./Writing/WritingPage";
 
 export {
   HomePage,
@@ -21,4 +22,5 @@ export {
   MainPage,
   FindPage,
   BrowsePage,
+  WritingPage,
 };

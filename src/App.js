@@ -15,6 +15,7 @@ import {
   MainPage,
   FindPage,
   BrowsePage,
+  WritingPage,
 } from "./pages/index";
 import ReadArticle from "./pages/Article/ReadArticle";
 import ReadPoem from "./pages/Poem/ReadPoem";
@@ -39,6 +40,7 @@ function App() {
         <Route path="/write" element={<WritePage />} />
         <Route path="/browse" element={<BrowsePage />} />
         <Route path="/browse/:slug" element={<BrowseArticle />} />
+        <Route path="/writing" element={<WritingPage />} />
       </Routes>
       <Footer />
     </div>

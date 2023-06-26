@@ -1,11 +1,11 @@
 import React from "react";
-import Write from "../../components/Write/Write";
+// import Write from "../../components/Write/Write";
 import Find from "../../components/Find/Find";
 
 function FindPage() {
   return (
     <div>
-      <Write />
+      {/* <Write /> */}
       <Find />
     </div>
   );

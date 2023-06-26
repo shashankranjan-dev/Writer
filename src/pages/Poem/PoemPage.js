@@ -1,11 +1,11 @@
 import React from "react";
-import Write from "../../components/Write/Write";
+// import Write from "../../components/Write/Write";
 import Poem from "../../components/Poem/Poem";
 
 function PoemPage() {
   return (
     <div>
-      <Write />
+      {/* <Write /> */}
       <Poem />
     </div>
   );
