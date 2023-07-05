@@ -13,7 +13,7 @@ function ReadArticle() {
 
   return article ? (
     <div className="text-white">
-      <Write />
+      {/* <Write /> */}
 
       <div className="max-w-screen-lg mx-auto">
         <main class="mt-10">

@@ -6,13 +6,13 @@ function Relatedpoem({ uid }) {
   const [poem] = usePrismicDocumentByUID("poem", uid);
   return poem ? (
     <poem className="max-w-xs">
-      <a href="!#">
+      {/* <a href="!#">
         <img
           src={poem?.data.banner.url}
           className="mb-5 rounded-lg aspect-video max-w-full"
           alt={poem?.data.banner.alt}
         />
-      </a>
+      </a> */}
       <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
         <a href="!#">
           <PrismicRichText field={poem.data.heading} />

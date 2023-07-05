@@ -13,7 +13,7 @@ function ReadArticle() {
 
   return poem ? (
     <div className="text-white">
-      <Write />
+      {/* <Write /> */}
       {/* <div class="flex flex-wrap justify-center">
         <div class="max-w-3xl mb-10 rounded overflow-hidden flex flex-col mx-auto text-center">
           <img
@@ -40,17 +40,17 @@ function ReadArticle() {
         </div>
       </div> */}
       <div className="py-20">
-        <div class="container m-auto px-6   md:px-auto xl:px-20">
-          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:ml-40 lg:items-center lg:gap-12">
-            <div class="md:w-5/12 lg:w-[30rem]">
+        <div class="container mx-auto px-6 flex items-center justify-center w-full ">
+          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:ml-40 lg:items-center ">
+            {/* <div class="md:w-5/12 lg:w-[30rem]">
               <img
                 src={poem?.data.banner.url}
                 alt=""
                 loading="lazy"
                 className="shadow-lg  shadow-black"
               />
-            </div>
-            <div class="md:7/12 lg:w-6/12 justify-center">
+            </div> */}
+            <div class="">
               <h2 class="text-4xl text-white font-bold hover:text-indigo-600 font-assistant tracking-widest transition duration-500 ease-in-out md:text-4xl">
                 <PrismicRichText field={poem.data.heading} />
               </h2>

@@ -5,9 +5,9 @@ const Hero8 = () => {
   const navigate = useNavigate();
   return (
     <div className="max-w-screen-2xl mx-auto ">
-      <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-10 py-8 2xl:mx-auto 2xl:container">
+      <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-8 py-8 2xl:mx-auto 2xl:container">
         <div className="z-30 relative lg:w-1/2 ">
-          <div className="hidden bg-zinc-800  w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
+          <div className="hidden   w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
             <div className="w-full lg:w-auto lg:-mr-32">
               <img
                 src="/naz.jpg"
@@ -16,7 +16,7 @@ const Hero8 = () => {
               />
             </div>
           </div>
-          <div className="absolute top-0 bg-zinc-800  md:h-96 w-full hidden md:block lg:hidden"></div>
+          <div className="absolute top-0   md:h-96 w-full hidden md:block lg:hidden"></div>
           <div className="w-full h-full lg:hidden">
             <img
               src="/naz.jpg"
@@ -25,12 +25,12 @@ const Hero8 = () => {
             />
           </div>
         </div>
-        <div className=" bg-zinc-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
+        <div className="  lg:w-1/2 lg:ml-12 lg:p-14 py-8 flex items-center">
           <div>
-            <h1 className="text-white font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
+            <h1 className="text-gray-300 font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
               Naziya Khan
             </h1>
-            <p className="text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal  mt-5">
+            <p className="text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal  mt-6">
               Get inspired by our curated selection of luxiwood interiors. We
               hope get inspired to have luxiwood interior yourself. You’ll find
               tips here where you can buy a lot of cool furniture,decorations,
@@ -38,7 +38,7 @@ const Hero8 = () => {
             </p>
             <button
               onClick={() => navigate("/write")}
-              className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center"
+              className="   sm:w-auto w-full mt-4 font-assistant tracking-widest text-2xl focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:text-gray-300 font-medium leading-none text-white py-4  flex items-center"
             >
               I write
               <div className="ml-2 mt-0.5">
