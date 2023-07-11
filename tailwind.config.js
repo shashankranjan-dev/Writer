@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         assistant: ["'Assistant'", "sans-serif"],
-        "south-australia": ['"South Australia"', "sans-serif"],
       },
       variants: {
         display: ["group-hover"],
