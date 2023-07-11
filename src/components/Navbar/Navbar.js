@@ -6,9 +6,10 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav class=" bg-stone-900 border-gray-700">
+      {/* <div className="mx-auto text-red-500 text-center pt-1 -ml-20 ">🔴</div> */}
       <div class="max-w-screen-sm pl-28 sm:pl-44 pt-6 flex flex-wrap items-center justify-evenly mx-auto p-4">
         <Link to="/" class="flex items-center">
-          <span class="self-center text-4xl sm:text-3xl whitespace-nowrap text-white font-light font-assistant uppercase tracking-wider">
+          <span class="self-center text-4xl sm:text-3xl whitespace-nowrap text-white font-light font-assistant uppercase tracking-widest">
             Naziya Khan
           </span>
         </Link>

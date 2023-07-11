@@ -10,6 +10,7 @@ import MainPage from "./Main/MainPage";
 import FindPage from "./Find/FindPage";
 import BrowsePage from "./Browse/BrowsePage";
 import WritingPage from "./Writing/WritingPage";
+import PublicationPage from "./Publication/PublicationPage";
 
 export {
   HomePage,
@@ -23,4 +24,5 @@ export {
   FindPage,
   BrowsePage,
   WritingPage,
+  PublicationPage,
 };

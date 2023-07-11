@@ -27,18 +27,12 @@ const Hero8 = () => {
         </div>
         <div className="  lg:w-1/2 lg:ml-12 lg:p-14 py-8 flex items-center">
           <div>
-            <h1 className="text-gray-300 font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
+            {/* <h1 className="text-gray-300 font-assistant tracking-widest md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold  capitalize">
               Naziya Khan
-            </h1>
-            <p className="text-gray-300 md:w-9/12 font-light font-assistant text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal  mt-6">
-              Get inspired by our curated selection of luxiwood interiors. We
-              hope get inspired to have luxiwood interior yourself. You’ll find
-              tips here where you can buy a lot of cool furniture,decorations,
-              plants, etc.
-            </p>
+            </h1> */}
             <button
               onClick={() => navigate("/write")}
-              className="   sm:w-auto w-full mt-4 font-assistant tracking-widest text-2xl focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:text-gray-300 font-medium leading-none text-white py-4  flex items-center"
+              className="   sm:w-auto w-full mt-4 font-assistant tracking-widest text-2xl  hover:text-gray-300 font-medium leading-none text-white py-4  flex items-center"
             >
               I write
               <div className="ml-2 mt-0.5">
@@ -71,6 +65,12 @@ const Hero8 = () => {
                 </svg>
               </div>
             </button>
+            <p className="text-gray-300 md:w-9/12 font-light font-assistant tracking-wide text-justify lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal  mt-6">
+              Get inspired by our curated selection of luxiwood interiors. We
+              hope get inspired to have luxiwood interior yourself. You’ll find
+              tips here where you can buy a lot of cool furniture,decorations,
+              plants, etc.
+            </p>
           </div>
         </div>
       </div>
