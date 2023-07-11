@@ -214,29 +214,6 @@ const Hero2 = () => {
                    text-gray-100 hover:text-orange-300 tracking-widest font-assistant hover:translate-x-6 hover:duration-500 hover:scale-105"
                   >
                     <PrismicRichText field={poem.data.heading} />
-                    <div
-                      aria-controls="slide"
-                      aria-label="slide forward"
-                      className="mx-8"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-arrow-narrow-right "
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="	#fff"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <line x1="5" y1="12" x2="19" y2="12" />
-                        <line x1="15" y1="16" x2="19" y2="12" />
-                        <line x1="15" y1="8" x2="19" y2="12" />
-                      </svg>
-                    </div>
                   </h3>
                   <p className="mt-6 text-base font-medium leading-7 tracking-widest text-justify font-assistant text-gray-200 line-clamp-3">
                     <PrismicRichText field={poem.data.description} />

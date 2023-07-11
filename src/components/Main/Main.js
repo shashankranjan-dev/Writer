@@ -6,18 +6,26 @@ const Feature6 = () => {
     <div className="mx-auto container py-8  sm:py-10 md:py-12 lg:py-32 px-4 md:px-6 2xl:px-0 flex justify-center items-center">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 space-y-6 lg:space-y-0">
         <div className="relative">
-          <video
-            className="object-cover w-[700px] h-[400px] rounded shadow-lg sm:h-[600px] md:h-[500px] lg:h-[600px] "
-            controls
-            autoplay
-          >
-            <source src="/DSCF1630.MOV" type="video/mp4" />
-          </video>
+          <img
+            className="hidden lg:block"
+            src="https://i.ibb.co/XXKZ7Pt/Group-1785.png"
+            alt="table-chair"
+          />
+          <img
+            className="hidden sm:block lg:hidden"
+            src="https://i.ibb.co/KK7Vn9n/Group-1785-1.png"
+            alt="table-chair"
+          />
+          <img
+            className="sm:hidden"
+            src="https://i.ibb.co/F0T98KC/Group-1785.png"
+            alt="table-chair"
+          />
           <div className="absolute bottom-4 sm:bottom-10 inset-x-4 sm:inset-x-10 p-6 bg-white rounded-t-xl flex flex-col justify-start items-start">
             <div>
               <Link
                 to="/writing"
-                className="text-2xl font-semibold leading-6 text-gray-800 tracking-widest font-south-australia"
+                className="text-2xl font-semibold leading-6 text-gray-800 tracking-widest font-assistant"
               >
                 Writing
               </Link>
@@ -68,13 +76,22 @@ const Feature6 = () => {
         </div>
 
         <div className="relative">
-          <video
-            className="object-cover w-[700px] h-[400px] rounded shadow-lg sm:h-[600px] md:h-[500px] lg:h-[600px] "
-            controls
-            autoplay
-          >
-            <source src="/video_20230612_134613.mp4" type="video/mp4" />
-          </video>
+          <img
+            className="hidden lg:block"
+            src="https://i.ibb.co/XXKZ7Pt/Group-1785.png"
+            alt="table-chair"
+          />
+          <img
+            className="hidden sm:block lg:hidden"
+            src="https://i.ibb.co/KK7Vn9n/Group-1785-1.png"
+            alt="table-chair"
+          />
+          <img
+            className="sm:hidden"
+            src="https://i.ibb.co/F0T98KC/Group-1785.png"
+            alt="table-chair"
+          />
+
           <div className="absolute bottom-4 sm:bottom-10 inset-x-4 sm:inset-x-10 p-6 bg-white flex flex-col justify-start items-start">
             <div>
               <p className="text-2xl font-semibold leading-6 text-gray-800 tracking-widest font-assistant">

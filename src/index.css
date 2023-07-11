@@ -11,6 +11,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'South Australia';
+  src: url('../public/fonts/South\ Australia\ TTF.ttf') format('truetype');
+  /* Add more font weights and formats if necessary */
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
