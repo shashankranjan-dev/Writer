@@ -179,7 +179,7 @@ const Hero2 = () => {
     //   </div>
     // </div>
     <div>
-      <div className="2xl:mx-auto 2xl:container py-8  md:px-4 px-4 ">
+      <div className="2xl:mx-auto 2xl:container py-8  md:px-40 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-3 xl:grid-cols-6 justify-items-around gap-x-6 gap-y-6 xl:gap-y-0 xl:gap-x-8 mt-0">
             <button className="flex  flex-row justify-start items-center  py-8  ">
@@ -187,7 +187,7 @@ const Hero2 = () => {
                 to="/writing"
                 className="text-2xl sm:text-4xl font-bold leading-8 text-gray-100 tracking-widest hover:underline hover:underline-offset-8 hover:text-orange-200 hover:duration-300 font-assistant"
               >
-                Writing
+                Pieces
               </Link>
               <Link
                 to="/poem"

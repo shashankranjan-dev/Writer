@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import RelatedArticle from "../../components/Article/RelatedArticle";
 import Write from "../../components/Write/Write";
+import { Link } from "react-router-dom";
 
 function ReadArticle() {
   const params = useParams();
@@ -82,12 +83,19 @@ function ReadArticle() {
 
       <aside
         aria-label="Related articles "
-        className="py-8 lg:py-24 mt-16  bg-stone-800"
+        className="py-8 lg:py-20 mt-16  bg-stone-800"
       >
-        <div className="px-12 sm:px-0 justify-center mx-auto max-w-screen-lg">
-          <h2 className="mb-8 text-2xl font-bold  text-white">
-            Related articles
+        <div className="px-12 sm:px-0  justify-center mx-auto max-w-screen-lg">
+          <h2 className="mb-8 text-2xl flex justify-between font-bold  tracking-widest  text-white">
+            Read More{" "}
+            <Link
+              to="/writing"
+              className="text-white font-assistant tracking-widest font-bold text-2xl "
+            >
+              I Write
+            </Link>
           </h2>
+
           <div className="grid gap-12  grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {article.data?.body1[0]?.items.map((item) => (
               <RelatedArticle uid={item?.link.uid} />

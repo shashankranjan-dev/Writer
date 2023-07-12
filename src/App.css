@@ -3,6 +3,7 @@ nav {
     top: 0;
     z-index: 100;
     background-color: transparent;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .bg-header {

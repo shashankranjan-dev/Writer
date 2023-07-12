@@ -17,10 +17,10 @@ function Footer() {
 
   return (
     <div>
-      <footer class="bg-white  text-center text-black ">
-        <div class=" pt-6">
-          <div class="mb-4 flex justify-center">
-            <a href="#!" class="mr-9 text-neutral-800 ">
+      <footer class="text-center text-black ">
+        <div class=" py-12">
+          <div class="flex justify-center">
+            {/* <a href="#!" class="mr-9 text-white ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -29,8 +29,8 @@ function Footer() {
               >
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
               </svg>
-            </a>
-            <a href="#!" class="mr-9 text-neutral-800 ">
+            </a> */}
+            <a href="#!" class="mr-9 text-white ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -41,7 +41,7 @@ function Footer() {
               </svg>
             </a>
 
-            <a href="#!" class="mr-9 text-neutral-800 ">
+            <a href="#!" class="mr-9 text-white ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -53,7 +53,7 @@ function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/naziya-perveen-3a010b262/"
-              class="mr-9 text-neutral-800 "
+              class="mr-9 text-white "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ function Footer() {
                 {" "}
                 <button
                   id="share"
-                  class="cursor-pointer h-4 rounded-full w-4 flex   focus:outline-none"
+                  class="cursor-pointer h-4 text-white rounded-full w-4 flex   focus:outline-none"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

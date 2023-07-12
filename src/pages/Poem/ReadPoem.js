@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import RelatedPoem from "../../components/Poem/RelatedPoem";
 import Write from "../../components/Write/Write";
+import { Link } from "react-router-dom";
 
 function ReadArticle() {
   const params = useParams();
@@ -83,8 +84,14 @@ function ReadArticle() {
         className="py-8 lg:py-16 mt-2  bg-stone-800"
       >
         <div className="px-10 sm:px-0  justify-center mx-auto max-w-screen-lg">
-          <h2 className="mb-8 text-2xl font-bold  text-white">
-            Related articles
+          <h2 className="mb-8 text-2xl flex justify-between font-bold  tracking-widest  text-white">
+            Read More{" "}
+            <Link
+              to="/poem"
+              className="text-white font-assistant tracking-widest font-bold text-2xl "
+            >
+              I Write
+            </Link>
           </h2>
           <div className="grid gap-12 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {poem.data?.body1[0]?.items.map((item) => (

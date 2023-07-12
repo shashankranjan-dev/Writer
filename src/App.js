@@ -44,7 +44,7 @@ function App() {
         <Route path="/writing" element={<WritingPage />} />
         <Route path="/publication" element={<PublicationPage />} />
       </Routes>
-      <Footer />
+      <Footer className="bg-stone-900" />
     </div>
   );
 }

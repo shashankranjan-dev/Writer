@@ -5,18 +5,18 @@ const Hero8 = () => {
   const navigate = useNavigate();
   return (
     <div className="max-w-screen-2xl mx-auto ">
-      <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-8 py-8 2xl:mx-auto 2xl:container">
+      <div className="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-6 py-8 2xl:mx-auto 2xl:container">
         <div className="z-30 relative lg:w-1/2 ">
           <div className="hidden   w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
-            <div className="w-full lg:w-auto lg:-mr-32">
+            <div className="w-full  lg:w-auto lg:-mr-32">
               <img
                 src="/naz.jpg"
                 alt=""
-                className="w-full relative h-[50rem]  z-30 lg:pl-20 px-6 py-14"
+                className="w-full relative h-[50rem]  z-30 lg:pl-20 px-6 py-8"
               />
             </div>
           </div>
-          <div className="absolute top-0   md:h-96 w-full hidden md:block lg:hidden"></div>
+          <div className="absolute top-0  md:h-96 w-full hidden md:block lg:hidden"></div>
           <div className="w-full h-full lg:hidden">
             <img
               src="/naz.jpg"
