@@ -33,7 +33,7 @@ const Feature6 = () => {
               </div>
               <div className="mt-2">
                 <p className="text-base leading-6 sm:leading-4 text-gray-600">
-                  Explore kitchen’s latest interior designs
+                  Includes Information, utterance and self reflection
                 </p>
               </div>
               <div className="mt-6">
@@ -101,7 +101,7 @@ const Feature6 = () => {
               </div>
               <div className="mt-2">
                 <p className="text-base leading-6 sm:leading-4 text-gray-600">
-                  Explore Patio’s latest interior design collection
+                  I saw all this, hence
                 </p>
               </div>
               <div className="mt-6">

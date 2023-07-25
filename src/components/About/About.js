@@ -42,18 +42,17 @@ function About() {
               />
             </div>
             <div class="md:7/12 lg:w-7/12">
-              <h2 class="text-2xl text-white font-bold tracking-wide font-assistant md:text-3xl">
+              {/* <h2 class="text-2xl text-white font-bold tracking-wide font-assistant md:text-3xl">
                 <span className="text-white tracking-wide text-5xl">I</span>
                 ntroduction
-              </h2>
+              </h2> */}
               <p class="mt-4 text-white font-light text-base font-assistant tracking-wide text-justify">
                 I am a writer and journalist based in Delhi. Art, philosophy,
                 culture, and truth are a few fascinating assimilations for me. I
                 hold a bachelor's degree in Journalism from the International
                 Institute of Mass Media, Delhi. Later, I started preparing for
-                civil services and failed twice but gained a lifetime of
-                abundant knowledge and a perspective that isn't clouded by
-                societal and cultural biases.
+                civil services and gained a lifetime of abundant knowledge and a
+                perspective that isn't clouded by the stereotypical biases.
               </p>
               <p class="mt-2 text-white font-light text-base font-assistant tracking-wide text-justify">
                 {" "}
@@ -68,9 +67,9 @@ function About() {
                 {" "}
                 My writing interests lie in building the power of storytelling
                 in our society. Through poems, short stories, articles, and
-                visual documentation, striving to weave threads of intellectual
+                visual documentation, striving to build an intellectual
                 curiosity and emotional resonance. It is through these endeavors
-                that we celebrate stories.
+                that we celebrate stories.
               </p>
               <br />
               <a

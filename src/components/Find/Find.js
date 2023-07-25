@@ -17,10 +17,8 @@ export default function Index() {
     <>
       <div className="2xl:mx-auto 2xl:container 2xl:px-40 xl:px-36 sm:px-12 px-8 py-6">
         <p className="text-lg text-justify leading-8 mt-4 sm:pr-10 font-assistant tracking-wider text-gray-300">
-          If you're looking for random paragraphs, you've come to the right
-          place.If you're looking for random paragraphs, you've come to the
-          right place.If you're looking for random paragraphs, you've come to
-          the right place.If you're looking for random paragraphs,
+          A walk through the visual documentation of experiences. I got stories
+          and my eye had frames. A witness to society
         </p>
       </div>
       <section className="">

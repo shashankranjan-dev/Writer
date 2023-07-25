@@ -53,9 +53,8 @@ function Contact() {
                   </h2>
 
                   <p class="mx-auto max-w-screen-md px-6 sm:px-0 font-assistant tracking-widest text-justify text-gray-100 md:text-lg">
-                    I am available for general questions/comments/concerns as
-                    well as potential employment opportunities in writing,
-                    editing, or teaching/tutoring.
+                    Write to me for feedbacks/suggestions/questions as well as
+                    potential work opportunities
                   </p>
                 </div>
 

@@ -102,11 +102,10 @@ const Hero8 = () => {
         </div>
       </div>
       <p class="text-gray-300 px-16 sm:px-48 pl-10 sm:pl-[450px] font-light font-assistant tracking-wide text-justify w-full text-base leading-normal mt-2">
-        Get inspired by our curated selection of luxiwood interiors. We hope you
-        get inspired to have luxiwood interior yourself. You’ll find tips here
-        on where you can buy a lot of cool furniture, decorations, plants, etc.
-        You’ll find tips here on where you can buy a lot of cool furniture,
-        decorations, plants, etc.
+        Here, you will find a versatile composition of different writings and a
+        few visual note taking experience through photography. Gender,
+        philosophy, society and understanding culture array to my
+        selective writings
       </p>
       <button
         onClick={() => navigate("/write")}
