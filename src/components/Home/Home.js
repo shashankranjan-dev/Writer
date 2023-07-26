@@ -103,8 +103,8 @@ const Hero8 = () => {
       </div>
       <p class="text-gray-300 px-16 sm:px-48 pl-10 sm:pl-[480px] font-light font-assistant tracking-wide text-justify w-full text-base leading-normal mt-2">
         Here, you will find a versatile composition of different writings and a
-        few visual note taking experience through photography. Gender,
-        philosophy, society and understanding culture array to my
+        few visual note-taking experiences through photography. Gender,
+        philosophy, society, and understanding of culture array to my
         selective writings
       </p>
       <button
