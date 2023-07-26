@@ -37,7 +37,7 @@ export default function Index() {
                   />
                 </div>
                 <div className="lg:w-1/2 px-0 sm:px-0 d:px-0 lg:px-24">
-                  <h2 className="mt-2 text-xl font-normal font-assistant tracking-wider text-gray-800 capitalize dark:text-white">
+                  <h2 className="mt-2 text-xl font-normal font-assistant tracking-wider  capitalize text-white">
                     <PrismicRichText field={photo.data.heading} />
                   </h2>
                 </div>
