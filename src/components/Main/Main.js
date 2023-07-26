@@ -93,7 +93,7 @@ const Feature6 = () => {
               alt="table-chair"
             />
 
-            <div className="absolute bottom-4 sm:bottom-10 inset-x-4 sm:inset-x-10 p-6 bg-white flex flex-col justify-start items-start">
+            <div className="absolute bottom-4 sm:bottom-10 inset-x-4 sm:inset-x-10 p-6 bg-white rounded-t-xl  flex flex-col justify-start items-start">
               <div>
                 <p className="text-2xl font-semibold leading-6 text-gray-800 tracking-widest font-assistant">
                   I and Eye

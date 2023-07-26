@@ -20,7 +20,7 @@ function ReadArticle() {
         <main class="mt-10">
           <div class="mb-4 md:mb-0 w-full mx-auto relative">
             <div class="px-4 lg:px-0">
-              <h2 class="text-4xl font-semibold text-white text-center font-assistant tracking-wider leading-tight">
+              <h2 class="text-4xl font-semibold py-2 text-white text-center font-assistant tracking-wider leading-tight">
                 <PrismicRichText field={article.data.heading} />
               </h2>
             </div>
@@ -33,7 +33,7 @@ function ReadArticle() {
           </div>
 
           <div class="flex flex-col lg:flex-row lg:space-x-12">
-            <div class="px-4 lg:px-0 mt-6 text-white text-center text-base leading-relaxed w-full lg:w-full">
+            <div class="px-4 lg:px-0 mt-6 text-white text-center text-lg leading-relaxed w-full lg:w-full">
               <p class="pb-6 text-justify font-assistant tracking-wide">
                 <PrismicRichText
                   field={article.data.desc}

@@ -18,7 +18,7 @@ function Footer() {
   return (
     <div>
       <footer class="text-center text-black ">
-        <div class=" py-12">
+        <div class=" py-20">
           <div class="flex justify-center">
             {/* <a href="#!" class="mr-9 text-white ">
               <svg

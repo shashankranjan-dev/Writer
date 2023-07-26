@@ -88,20 +88,20 @@ const Hero8 = () => {
           </div>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-3 xl:grid-cols-6 justify-items-around gap-x-6 gap-y-6 xl:gap-y-0 xl:gap-x-8 mt-0">
-          <div class="flex px-10 sm:px-[735px]  flex-row justify-center items-center py-4">
+          <div class="flex px-10 sm:px-[780px]  flex-row justify-center items-center py-4">
             <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin leading-8 text-gray-100 tracking-wider    font-assistant">
-              Journalist
+              Journalist.
             </p>
             <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl  mx-16 leading-8 font-thin text-gray-100 tracking-wider font-assistant   ">
-              Writer
+              Writer.
             </p>
             <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl  mx-auto leading-8 font-thin text-gray-100 tracking-wider font-assistant   ">
-              Researcher
+              Researcher.
             </p>
           </div>
         </div>
       </div>
-      <p class="text-gray-300 px-16 sm:px-48 pl-10 sm:pl-[450px] font-light font-assistant tracking-wide text-justify w-full text-base leading-normal mt-2">
+      <p class="text-gray-300 px-16 sm:px-48 pl-10 sm:pl-[480px] font-light font-assistant tracking-wide text-justify w-full text-base leading-normal mt-2">
         Here, you will find a versatile composition of different writings and a
         few visual note taking experience through photography. Gender,
         philosophy, society and understanding culture array to my
@@ -109,7 +109,7 @@ const Hero8 = () => {
       </p>
       <button
         onClick={() => navigate("/write")}
-        className="   sm:w-auto w-full mt-2 px-48 pl-10 sm:pl-[450px] font-assistant tracking-widest text-2xl  hover:text-gray-300 font-medium leading-none text-white py-4  flex items-center"
+        className="   sm:w-auto w-full mt-2 px-48 pl-10 sm:pl-[480px] font-assistant tracking-widest text-2xl  hover:text-gray-300 font-medium leading-none text-white py-4  flex items-center"
       >
         I write
         <div className="ml-2 mt-0.5">
