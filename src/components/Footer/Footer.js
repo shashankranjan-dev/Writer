@@ -41,7 +41,10 @@ function Footer() {
               </svg>
             </a>
 
-            <a href="#!" class="mr-9 text-white ">
+            <a
+              href="https://www.instagram.com/khan_naziya099/"
+              class="mr-9 text-white "
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"

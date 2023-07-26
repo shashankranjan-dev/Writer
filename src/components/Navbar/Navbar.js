@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../App.css";
-import "../../index.css";
+// import "../../App.css";
+// import "../../index.css";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -9,7 +9,7 @@ function Navbar() {
       {/* <div className="mx-auto text-red-500 text-center pt-1 -ml-20 ">🔴</div> */}
       <div class="max-w-screen-xl pt-6 pl-10 sm:pl-10 flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" class="flex items-center">
-          <span class="self-center text-4xl sm:text-3xl  text-white naziya   tracking-wider">
+          <span class="self-center text-4xl sm:text-4xl whitespace-nowrap text-gray-100 font-light font-assistant   tracking-wider">
             Naziya Khan
           </span>
         </Link>
