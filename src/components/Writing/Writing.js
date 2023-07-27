@@ -5,6 +5,13 @@ import { Link } from "react-router-dom";
 export default function Writing() {
   const [articles] = usePrismicDocumentsByType("article");
   const [poems] = usePrismicDocumentsByType("poem");
+  if (articles?.results) {
+    articles.results.sort((a, b) => {
+      const dateA = new Date(a.last_publication_date);
+      const dateB = new Date(b.last_publication_date);
+      return dateB - dateA;
+    });
+  }
 
   return (
     <div>

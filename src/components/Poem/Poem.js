@@ -15,6 +15,14 @@ const Hero2 = () => {
   SwiperCore.use([Autoplay]);
   const [poems] = usePrismicDocumentsByType("poem");
 
+  if (poems?.results) {
+    poems.results.sort((a, b) => {
+      const dateA = new Date(a.last_publication_date);
+      const dateB = new Date(b.last_publication_date);
+      return dateB - dateA;
+    });
+  }
+
   return (
     // <div className="dark:bg-stone-900">
     //   <div className="container mx-auto py-9 md:py-12 lg:py-4">
