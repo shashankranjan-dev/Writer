@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "../../App.css";
-import Resume from "./Naziya Perveen (2).pdf";
+import Resume from "./Naziya Perveen.pdf";
 
 function About() {
   const ref = useRef(null);
